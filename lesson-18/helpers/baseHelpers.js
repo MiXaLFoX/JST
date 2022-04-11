@@ -11,10 +11,10 @@ class BaseElements extends BasePage {
     await element.click();
   }
 
-  async sendKeys(element, text, waitTime = 5000) {
+  async sendKeys(element, text, waitTime, keyName) {
     await driver.wait(until.elementIsVisible(element), waitTime);
-    await element.sendKeys(text);
+    await element.sendKeys(text, keyName);
   }
 }
 
-module.exports = BaseElements;
+module.exports = new BaseElements();

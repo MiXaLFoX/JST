@@ -10,13 +10,9 @@ class SearchComponent extends BasePage {
     return driver.findElement(By.css('.whsOnd.zHQkBf'))
   }
 
-  get resultsOnThisSite() {
-    return driver.findElement(By.css('.x8xhwb'))
-  }
-
   get searchResultDescription() {
     return driver.findElement(By.css('.lZsZxe > div:nth-child(1)'));
   }
 }
 
-module.exports = SearchComponent;
+module.exports = new SearchComponent();
