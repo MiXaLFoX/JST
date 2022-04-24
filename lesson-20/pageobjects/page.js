@@ -3,12 +3,9 @@
 * that is shared across all page objects
 */
 class Page {
-    constructor() {
-
-    }
-    navigate(path) {
-        return browser.url(path)
-    }
+  navigate(path) {
+    return browser.url(path)
+  }
 }
 
-module.exports = new Page();
+module.exports = Page;

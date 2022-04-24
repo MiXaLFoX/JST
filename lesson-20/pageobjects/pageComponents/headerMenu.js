@@ -8,6 +8,10 @@ class HeaderMenu extends Page{
   get searchField(){
     return $('.DocSearch.DocSearch-Button');
   }
+
+  get gitHubButton(){
+    return $('.navbar__items--right .header-github-link');
+  }
 }
 
 module.exports = new HeaderMenu();
