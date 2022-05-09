@@ -4,6 +4,7 @@ const HeaderMenu = require('./PageObjects/pageComponents/headerMenu');
 const HomePage = require('./PageObjects/HomePage');
 const SearchField = require('./PageObjects/pageComponents/searchField');
 const SmartphonePage = require('./PageObjects/SmartphonesPage');
+const { expect } = require('chai');
 
 describe('check sila.by', () => {
   const page = new Page();
@@ -34,8 +35,10 @@ describe('check sila.by', () => {
   });
 
   it('find black iphone', () => {
-    SmartphonePage.phonesFilters.scrollTo('center', { ensureScrollable: false });
     SmartphonePage.colorFilter.click();
-    SmartphonePage.blackColorCheckbox.check();
+    SmartphonePage.blackColorCheckbox.click().should('be.checked');
+    SmartphonePage.filterQuantity.should('eq', '[1]');
+    SmartphonePage.filteredLink.click();
+    SmartphonePage.goodsQuantity.should('have.length', 1);
   });
 });
