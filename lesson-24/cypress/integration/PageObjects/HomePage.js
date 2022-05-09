@@ -10,7 +10,7 @@ class HomePage extends Page {
   }
 
   get smartphonesButton (){
-    return cy.get('.block_catalog__wrap .block_catalog__item.smartphone_sl');
+    return this.catalogButtons.find(':nth-child(4)');
   }
 }
 
