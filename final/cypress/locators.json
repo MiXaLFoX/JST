@@ -1,0 +1,29 @@
+{
+  "homePage": {
+    "slider": ".carousel-hero > .carousel-slider",
+    "sliderBtnNext": "#app > main > div.section.section--first > div > div:nth-child(1) > div > div.hero-row__slider > div > div.carousel-slider.swiper-container-initialized.swiper-container-horizontal > div.swiper-button-next.ic-chevron-down",
+    "sliderBtnPrev": "#app > main > div.section.section--first > div > div:nth-child(1) > div > div.hero-row__slider > div > div.carousel-slider.swiper-container-initialized.swiper-container-horizontal > div.swiper-button-prev.ic-chevron-down"
+  },
+  "header": {
+    "menuItems": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-nav",
+    "catalogBtn": ".h-burger .btn",
+    "iconBtnsContainer": ".h-bar",
+    "favDrop": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.h-wrap > div.h-bar > div.h-added-drop.h-drop.js-drop-select.active > div.h-drop__body > div > p",
+    "favNum": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.h-wrap > div.h-bar > div:nth-child(2) > div.n-item.js-drop-select-trigger > div.n-item__icon.ic-favorite > span",
+    "searchField": ".h-search__form > .inp",
+    "searchBtn": ".btn > .ic-search"
+  },
+  "catalog": {
+    "catalogNavigation": ".catalog-navigation.js-catalog-nav.is-init",
+    "catalogGrid": ".catalog.catalog--grid .catalog-wrap"
+  },
+  "login": {
+    "accountBtn": "#app > header > div.g-header > div.h-panel-top > div > div > div.h-controls > a > div",
+    "userAccBtn": ".h-user > .h-drop__head",
+    "logoutBtn": "",
+    "nameInput": "#app > div:nth-child(16) > div > div.modal-popup__body > div.modal-popup-form > form > div:nth-child(1) > input",
+    "passwordInput": "#app > div:nth-child(16) > div > div.modal-popup__body > div.modal-popup-form > form > div:nth-child(2) > input",
+    "loginCheckbox": ".form-row > .inp-box > .inp-box__label > .inp-box__view",
+    "loginBtn": "#app > div:nth-child(16) > div > div.modal-popup__body > div.modal-popup-form > form > div:nth-child(4) > button"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "header": {
+    "phones": "/9-smartfony-i-gadzhety",
+    "tvs": "/13-televizory-i-video",
+    "laptops": "/11-noutbuki-i-kompyutery",
+    "kitchentech": "/21-tehnika-dlya-kuhni",
+    "audio": "/1-audio",
+    "iconBtns": ["Сравнение","Избранное","Корзина"],
+    "favMessage": "У нас столько замечательных товаров, а в Избранном у Вас – пусто :(",
+    "userPhone": "+375 (29) 785-27-02",
+    "userPass": "0M69yywp",
+    "findGoods": "samsung",
+    "userName": "Михаил"
+  }
+}
