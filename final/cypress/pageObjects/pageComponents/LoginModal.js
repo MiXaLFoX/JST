@@ -23,7 +23,7 @@ class LoginModal extends Page {
   }
 
   get userAccBtn(){
-    cy.get(locators.login.userAccBtn);
+    return cy.get(locators.login.userAccBtn);
   }
 
   loginToAccount(userName, password){
@@ -32,6 +32,7 @@ class LoginModal extends Page {
     this.passwordInput.type(password);
     this.loginCheckbox.click();
     this.loginBtn.click();
+    cy.wait(15000)
   }
 }
 

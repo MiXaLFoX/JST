@@ -27,12 +27,33 @@ class Header extends Page{
     return cy.get(locators.header.favNum);
   }
 
+  get searchContainer(){
+    return cy.get(locators.header.searchContainer);
+  }
+
   get searchField(){
     return cy.get(locators.header.searchField);
   }
 
   get searchBtn(){
     return cy.get(locators.header.searchBtn);
+  }
+
+  get searchTips(){
+    return cy.get(locators.header.searchTips);
+  }
+
+  get multiSearchResults(){
+    return cy.get(locators.header.multiSearchResults);
+  }
+
+  get cartDrop(){
+    return cy.get(locators.header.cartDrop);
+  }
+
+  productSearch(productName){
+    this.searchContainer.invoke('show');
+    this.searchField.type(productName);
   }
 }
 
