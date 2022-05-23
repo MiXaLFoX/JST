@@ -1,0 +1,58 @@
+{
+  "homePage": {
+    "slider": ".carousel-hero > .carousel-slider",
+    "sliderBtnNext": "#app > main > div.section.section--first > div > div:nth-child(1) > div > div.hero-row__slider > div > div.carousel-slider.swiper-container-initialized.swiper-container-horizontal > div.swiper-button-next.ic-chevron-down",
+    "sliderBtnPrev": "#app > main > div.section.section--first > div > div:nth-child(1) > div > div.hero-row__slider > div > div.carousel-slider.swiper-container-initialized.swiper-container-horizontal > div.swiper-button-prev.ic-chevron-down"
+  },
+  "header": {
+    "menuItems": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-nav",
+    "catalogBtn": ".h-burger .btn",
+    "iconBtnsContainer": ".h-bar",
+    "favDrop": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.h-wrap > div.h-bar > div.h-added-drop.h-drop.js-drop-select.active > div.h-drop__body",
+    "favNum": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.h-wrap > div.h-bar > div:nth-child(2) > div.n-item.js-drop-select-trigger > div.n-item__icon.ic-favorite > span",
+    "favGoodsDeleteBtn": ".btn--clear.ic-trash",
+    "favDropTitle": ".h-drop__title",
+    "favProductAdded": ".card-product-added",
+    "searchContainer": ".multi-search",
+    "searchField": ".multi-search .multi-search-header__form .inp",
+    "searchBtn": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.multi-search > div.multi-search-header > form > div > button.multi-search-header__submit",
+    "searchTips": ".multi-search-tips",
+    "multiSearchResults": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.multi-search > div.multi-search-grid > div.multi-search-results > div",
+    "cartDrop": "#app > header > div.g-header > div.h-panel-hide > div > div.h-panel-search > div.h-wrap > div.h-bar > div.h-added-drop.h-drop.js-drop-select.active > div.h-drop__body"
+  },
+  "catalog": {
+    "catalogNavigation": ".catalog-navigation.js-catalog-nav.is-init",
+    "catalogGrid": ".catalog.catalog--grid .catalog-wrap",
+    "navigationList": ".catalog-navigation-list li",
+    "categoryList": ".catalog-navigation-category .catalog-navigation-category__list",
+    "filter": ".filter.filter--border",
+    "showMoreBtn": "#filter-692695 > div > a > span.collapsed",
+    "sowLessBtn": "#filter-692695 > div > a > span:nth-child(2)",
+    "catalogList": "#app > main > div:nth-child(3) > div > div > div.section-grid__main > div.catalog-default > div > div > div:nth-child(1)",
+    "filteredCatalogList": "#app > main > div:nth-child(3) > div > div > div.section-grid__main > div.catalog.catalog--list",
+    "filteredCatalogListIfLoggedin": "#app > main > div:nth-child(3) > div > div > div.section-grid__main > div.catalog-default > div > div",
+    "activeCatalogFavBtn": ".btn.btn--clear.active"
+  },
+  "login": {
+    "accountBtn": "#app > header > div.g-header > div.h-panel-top > div > div > div.h-controls > a > div",
+    "userAccBtn": ".h-drop.h-user.hovered .h-drop__head",
+    "logoutBtn": "",
+    "nameInput": "#app > div:nth-child(16) > div > div.modal-popup__body > div.modal-popup-form > form > div:nth-child(1) > input",
+    "passwordInput": "#app > div:nth-child(16) > div > div.modal-popup__body > div.modal-popup-form > form > div:nth-child(2) > input",
+    "loginCheckbox": ".form-row > .inp-box > .inp-box__label > .inp-box__view",
+    "loginBtn": "#app > div:nth-child(16) > div > div.modal-popup__body > div.modal-popup-form > form > div:nth-child(4) > button",
+    "userAccBtnValue": ".h-drop__text"
+  },
+  "cart": {
+    "mainAddToCartBtn": ".pp-controls .btn.btn--lg.btn--block.ec-add-to-cart",
+    "mainAddToCartBtnAfterScroll": ".c-controls .btn.btn--lg.btn--block.ec-add-to-cart",
+    "cartModal": ".modal-popup.modal-added",
+    "checkBtn": ".btn.btn--block.btn--lg",
+    "modalCloseBtn": ".modal-popup.modal-added .modal-popup-close.ic-close",
+    "modalRemoveBtn": "#app > div:nth-child(12) > div > div.modal-popup__body.ec-modal-win__body > div.card-product-in-modal > div > div:nth-child(3) > ul > li > a",
+    "searchResults": ".catalog.catalog--grid .catalog-wrap",
+    "modalGoToCartBtn": ".modal-popup.modal-added a[href=\"/cart\"]",
+    "productsInCart": ".card-product-cart.ec-product-cart",
+    "cartTotalSum": "#cart-g-main > div.shopping-cart > div:nth-child(2) > div > div > div.shopping-grid__aside > div > div.shopping-order > div.shopping-order-total > div.shopping-order-total__value.ec-total-value > strong"
+  }
+}
